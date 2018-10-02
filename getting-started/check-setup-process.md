@@ -6,7 +6,7 @@ description: >-
 
 # How to check Frontity is properly installed
 
-## 1. Check if our injector is correctly included in your WordPress theme
+## 1. Check if our injector is correctly included in your WP theme
 
 * Go to your site.
 * Right click where there is no text or images.
