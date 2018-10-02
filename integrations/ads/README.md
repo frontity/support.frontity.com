@@ -37,7 +37,9 @@ height: 250
 
 The pages where you can place ads at this time are: lists of posts \(latest posts, category, tag\), content of articles \(post, page\) and galleries \(media\).
 
-> **⚠️ Important:** note that we place our ad between your first ad and your second ad in each view, except for galleries. For more info, see our [business model](../../useful-information/business-model.md).
+{% hint style="warning" %}
+**Important**: note that we place our ad between your first ad and your second ad in each view, except for galleries. For more info, see our [business model](../../useful-information/business-model.md).
+{% endhint %}
 
 ### 1. Post lists \(latest posts, categories and tag lists\)
 

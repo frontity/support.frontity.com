@@ -16,7 +16,9 @@ Some WordPress hosting providers offer free SSL certificates with their plans. B
 
 To do so, you can **follow this guide**: [How to Setup CloudFlare Flexible SSL for WordPress](https://jonnyjordan.com/blog/how-to-setup-cloudflare-flexible-ssl-for-wordpress/).
 
+{% hint style="warning" %}
 **Important**: read the information below about CloudFlare Flexible SSL before taking any steps.
+{% endhint %}
 
 > _"Flexible SSL encrypts traffic from Cloudflare to end users of your website, but not from Cloudflare to your origin server. This is the easiest way to enable HTTPS because it doesn’t require installing an SSL certificate on your origin. While not as secure as the other options, Flexible SSL does protect your visitors from a large class of threats including public WiFi snooping and ad injection over HTTP."_ - More info at [https://www.cloudflare.com/en/ssl/](https://www.cloudflare.com/en/ssl/).
 

@@ -6,8 +6,7 @@ By default the homepage of your Progressive Web App will always display the late
 
 The solution here is quite simple. You don't need to change your front page, just follow these steps:
 
-1. Go to the **PWA configuration screen** from your WordPress dashboard.
-
+1. Go to the PWA configuration screen from your WordPress dashboard.  
 2. In the blue **Plugin settings** box, click the **Advanced Settings** link.
 
 ![](../.gitbook/assets/pwa-advanced-settings.png)

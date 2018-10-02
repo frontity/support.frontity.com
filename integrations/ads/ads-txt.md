@@ -4,18 +4,21 @@ Ads.txt stands for Authorized Digital Sellers and is a method for publishers and
 
 ## 1. How to implement ads.txt for Google ads
 
-> Jump directly to [step two](ads-txt.md#2-including-our-entry-in-your-adstxt-file) if you already have an ads.txt file.
+{% hint style="warning" %}
+Please jump directly to [step two](ads-txt.md#2-including-our-entry-in-your-ads-txt-file) if you already have an ads.txt file.
+{% endhint %}
 
-**Please note**: these steps only describe how to create an ads.txt file for Google ads. You can also refer to Google's guide [here](https://support.google.com/dfp_premium/answer/7441288?).
+The following steps describe only how to create an ads.txt file for Google ads. You can read more information and refer to Google's full guide [here](https://support.google.com/dfp_premium/answer/7441288?).
 
-1. Create a text \(.txt\) file.
-2. If you have an AdSense, DoubleClick for Publishers \(DFP\), or Ad Exchange account managed by yourself \(not through a third party\), **include** the following **line**:
+1.Create a text \(.txt\) file.
 
-   `google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0`
+2. If you have an AdSense, DoubleClick for Publishers \(DFP\), or Ad Exchange account managed by yourself \(not through a third party\), **include** the following **line**: `google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0`
 
-   **⚠️ Important:** you must replace `pub-0000000000000000` with your own **publisher ID**. [Here's where to find it](ads-txt.md#where-to-find-your-publisher-id).
+{% hint style="danger" %}
+You must **replace** `pub-0000000000000000` with your own publisher ID. [Here's where to find it](ads-txt.md#where-to-find-your-publisher-id).
+{% endhint %}
 
-3. Host your ads.txt on your root domain \(for example: [https://www.example.com/ads.txt](https://www.example.com/ads.txt)\). If you're not sure how to do this, [this plugin](ads-txt.md#adstxt-manager-wordpress-plugin) will help.
+3. Host your ads.txt on your root domain \(for example: [https://www.example.com/ads.txt](https://www.example.com/ads.txt)\). If you're not sure how to do this, [this plugin](ads-txt.md#ads-txt-manager-wordpress-plugin) will help.
 
 If you monetize through multiple Ad Exchange and/or AdSense accounts, you must include a separate row for each account, with its corresponding `pub-` code.
 
@@ -23,9 +26,11 @@ If you monetize through multiple Ad Exchange and/or AdSense accounts, you must i
 
 In order to allow us to [use one ad placement](../../useful-information/business-model.md) on your website, you have to include our publisher information in the ads.txt file by adding the following line:
 
-### `google.com, pub-6240751379550204, DIRECT, f08c47fec0942fa0`
+#### **`google.com, pub-6240751379550204, DIRECT, f08c47fec0942fa0`**
 
-> **⚠️ Important:** even though your site is verified by Google AdSense to display ads, you must include your publisher information in the ads.txt file.
+{% hint style="danger" %}
+**Important**: even though your site is verified by Google AdSense to display ads, you must include your publisher information in the ads.txt file.
+{% endhint %}
 
 ## Where to find your Publisher ID
 

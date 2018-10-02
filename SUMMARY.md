@@ -25,7 +25,7 @@
   * [Some images don't show up](troubleshooting/some-images-dont-appear.md)
   * [Homepage is not displaying posts](troubleshooting/home-page-not-displaying-posts.md)
   * [How to move to HTTPS](troubleshooting/how-to-move-to-https.md)
-  * [How to purge WP-API](troubleshooting/how-to-purge-wp-api.md)
+  * [How to purge WP REST API](troubleshooting/how-to-purge-wp-api.md)
   * [How to filter WP REST API fields](troubleshooting/how-to-filter-wp-rest-api-fields.md)
 * [Useful information](useful-information/README.md)
   * [Compatibility](useful-information/compatibility.md)

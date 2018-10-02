@@ -6,7 +6,9 @@ You should know, however, that there's a plugin called [Yoast SEO for WordPress 
 
 Its installation is **not mandatory** because it **does not have any impact** on your SEO ranking. The server side rendered version that is indexed by search engines does already have all the correct values.
 
-> **⚠️ Important**: by contrast, this plugin might have an impact in the WordPress REST API of your site and make the PWA to **load slower**. We only recommend its installation under specific situations and when your REST API is cached.
+{% hint style="danger" %}
+**Important**: by contrast, this plugin might have an impact in the WordPress REST API of your site and make the PWA to load slower. We only recommend its installation under specific situations and when your REST API is cached. 
+{% endhint %}
 
 ![](../.gitbook/assets/page-tittle-seo.jpg)
 

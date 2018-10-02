@@ -4,7 +4,7 @@
 
 Frontity is free. There are no installation costs nor monthly fees.
 
-Publishers will always maintain full control of their advertising and our **monetization** comes from **one ad placement** that they allow us to use on their website. We will just maintain control of this single space and get the income generated through it.
+Our **monetization** comes from **one ad placement** that publishers allow us to use on their website. We will just maintain control of this single space and get the income generated through it.
 
 ## Our mission
 

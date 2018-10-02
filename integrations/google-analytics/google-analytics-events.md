@@ -1,44 +1,44 @@
 # Events
 
 * [Menu](google-analytics-events.md#category-menu)
-  * [`activate notifications`](google-analytics-events.md#menu-activate-notifications)
-  * [`deactivate notifications`](google-analytics-events.md#menu-deactivate-notifications)
-  * [`open list`](google-analytics-events.md#menu-open-list)
-  * [`open single`](google-analytics-events.md#menu-open-single)
+  * `activate notifications`
+  * `deactivate notifications`
+  * `open list`
+  * `open single`
 * [Share modal](google-analytics-events.md#category-share-modal)
-  * [`share`](google-analytics-events.md#share-modal-share)
+  * `share`
 * [Share bar](google-analytics-events.md#category-share-bar)
-  * [`share`](google-analytics-events.md#share-bar-share)
-  * [`open share modal`](google-analytics-events.md#share-bar-open-share-modal)
-  * [`next`](google-analytics-events.md#share-bar-next)
+  * `share`
+  * `open share modal`
+  * `next`
 * [Post bar](google-analytics-events.md#category-post-bar)
-  * [`open menu`](google-analytics-events.md#post-bar-open-menu)
-  * [`close single`](google-analytics-events.md#post-bar-close-single)
+  * `open menu`
+  * `close single`
 * [List bar](google-analytics-events.md#category-list-bar)
-  * [`open menu`](google-analytics-events.md#list-bar-open-menu)
-  * [`go home`](google-analytics-events.md#list-bar-go-home)
-  * [`activate notifications`](google-analytics-events.md#list-bar-activate-notifications)
+  * `open menu`
+  * `go home`
+  * `activate notifications`
 * [Media bar](google-analytics-events.md#category-media-bar)
-  * [`open menu`](google-analytics-events.md#media-bar-open-menu)
-  * [`close media`](google-analytics-events.md#media-bar-close-media)
+  * `open menu`
+  * `close media`
 * [List](google-analytics-events.md#category-list)
-  * [`open share modal`](google-analytics-events.md#list-open-share-modal)
-  * [`open single`](google-analytics-events.md#list-open-single)
-  * [`swipe`](google-analytics-events.md#list-swipe)
+  * `open share modal`
+  * `open single`
+  * `swipe`
 * [Post](google-analytics-events.md#category-post)
-  * [`swipe`](google-analytics-events.md#post-swipe)
-  * [`infinite scroll`](google-analytics-events.md#post-infinite-scroll)
-  * [`open media`](google-analytics-events.md#post-open-media)
-  * [`open comments`](google-analytics-events.md#post-open-comments)
-  * [`open list`](google-analytics-events.md#post-open-list)
-  * [`open single`](google-analytics-events.md#post-open-single)
+  * `swipe`
+  * `infinite scroll`
+  * `open media`
+  * `open comments`
+  * `open list`
+  * `open single`
 * [Media](google-analytics-events.md#category-media)
-  * [`swipe`](google-analytics-events.md#media-swipe)
+  * `swipe`
 * [Navbar](google-analytics-events.md#category-navbar)
-  * [`open single`](google-analytics-events.md#navbar-open-single)
-  * [`open list`](google-analytics-events.md#navbar-open-list)
+  * `open single`
+  * `open list`
 * [Cookies](google-analytics-events.md#category-cookies)
-  * [`close`](google-analytics-events.md#cookies-close)
+  * `close`
 
 ## Category: Menu
 

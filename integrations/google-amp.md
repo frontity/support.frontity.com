@@ -1,7 +1,3 @@
----
-description: How to enable Google AMP on your site.
----
-
 # Google AMP
 
 {% hint style="danger" %}

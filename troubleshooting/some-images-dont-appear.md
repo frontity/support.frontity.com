@@ -13,9 +13,9 @@ Here's **how to sort this** issue in both cases.
 
 ## 1. An image contains special characters
 
-If an image is not showing up on the PWA, it may happen because it contains special characters \(è, ñ, ß...\). But this problem is less common as most servers treat special characters properly.
+If an image is not showing up on the PWA, it may happen because it contains special characters \(è, ñ, ß...\). This problem is less common as most servers treat special characters properly.
 
-The solution in this case is to **delete** the file and **upload** it again, without any special character in the name.
+The solution here is to **delete** the file and **upload** it again, without any special character in the name.
 
 ## 2. Image is attached to a post / page that changed its status
 
@@ -23,7 +23,7 @@ This is the most common problem. When an image is uploaded for the first time wh
 
 ![](../.gitbook/assets/attached-image-to-post.png)
 
-If we **change** the _"Somewhere in Romania"_ post **to private**, we **delete it** or **change its status** from published **to draft**, the image \(_forest.jpg_\) won't appear in the WP-API. Instead, you will see this error message:
+If we **change** the _"Somewhere in Romania"_ post **to private**, we **delete it** or **change its status** from published **to draft**, the image \(_forest.jpg_\) won't appear in the WP REST API. Instead, you will see this error message
 
 ![](../.gitbook/assets/screen-shot-2018-01-15-at-17.11.58.jpg)
 
@@ -33,19 +33,19 @@ This means the PWA can't access that image anymore and is not able to display it
 
 In order to address this problem, you will have to detach the image from any post or page:
 
-1. Go to your WordPress dashboard and navigate on the left menu to `Media` **&gt;** `Library`.
-
+1. Go to your WordPress dashboard and navigate on the left menu to `Media` **&gt;** `Library`.  
 2. Switch to the **Media List view** using this button:
 
 ![](../.gitbook/assets/switch-to-media-list.png)
 
-3. Find the image you would like to detach.
-
+3. Find the image you would like to detach.  
 4. **Click** where it says `Detach`, just below the name of the post / page:
 
 ![](../.gitbook/assets/detach-option.png)
 
-Once detached, the WP-API will retrieve the image and it will show up again on the PWA.
+Once detached, the WP REST API will retrieve the image and it will show up again on the PWA.
 
-> After detaching an image, you can re-attach it to another post if you want, but that's not mandatory.
+{% hint style="info" %}
+After detaching an image, you can re-attach it to another post if you want, but that's not mandatory.
+{% endhint %}
 

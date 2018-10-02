@@ -1,4 +1,4 @@
-# How to purge WP-API
+# How to purge WP REST API
 
 If you are using a cache for WordPress and want to include the WP-API, you'll have to invalidate it when a post is published or edited.
 

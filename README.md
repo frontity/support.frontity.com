@@ -4,7 +4,7 @@ Frontity \(or WordPress PWA\) is a WordPress plugin that replaces your classic m
 
 Our PWAs use the **mobile web** to deliver user experiences that are **fast** and **highly engaging**. They support Google AMP, can be accessed instantly from any device, and are frictionless to use.
 
-We aim to help publishers boost their traffic and maximize their ad revenue by making use of the latest mobile technologies. You can learn more about [our mission here](https://docs.wp-pwa.com/business-model.html#our-mission).
+We aim to help publishers boost their traffic and maximize their ad revenue by making use of the latest mobile technologies. You can learn more about [our mission here](useful-information/business-model.md#our-mission).
 
 ## What will you find in our documentation?
 
@@ -14,12 +14,14 @@ Please use the summary below or the navigation menu to access the content of our
 
 ## Summary
 
-* GETTING STARTED
+* Getting started
+
   * [Installation guide](getting-started/wp-pwa-plugin-installation.md)
   * [How to check Frontity is properly installed](getting-started/check-setup-process.md)
   * [How to preview your PWA](getting-started/how-to-preview-your-pwa.md)
   * [Exclude URLs in the PWA](getting-started/exclude-urls.md)
-* INTEGRATIONS
+
+* Integrations
   * [Google AMP](integrations/google-amp.md)
   * [Yoast SEO](integrations/yoast-seo-compatibility.md)
   * [Google Analytics](integrations/google-analytics/)
@@ -28,19 +30,22 @@ Please use the summary below or the navigation menu to access the content of our
     * [Virtual Page Views](integrations/google-tag-manager/google-tag-manager-pageviews.md)
     * [Virtual Events](integrations/google-tag-manager/google-tag-manager-events.md)
   * [Ad Configuration](integrations/ads/)
+
     * [DoubleClick](integrations/ads/doubleclick.md)
     * [AdSense](integrations/ads/adsense.md)
     * [Smart AdServer](integrations/ads/smart-adserver.md)
     * [Simple example](integrations/ads/ads-simple-example.md)
     * [Full example](integrations/ads/ads-full-example.md)
     * [Ads.txt](integrations/ads/ads-txt.md)
-* TROUBLESHOOTING
+* Troubleshooting
+
   * [Some images don't show up](troubleshooting/some-images-dont-appear.md)
   * [Homepage is not displaying posts](troubleshooting/home-page-not-displaying-posts.md)
   * [How to move to HTTPS](troubleshooting/how-to-move-to-https.md)
   * [How to purge WP-API](troubleshooting/how-to-purge-wp-api.md)
   * [How to filter WP REST API fields](troubleshooting/how-to-filter-wp-rest-api-fields.md)
-* USEFUL INFORMATION
+
+* Useful information
   * [Compatibility](useful-information/compatibility.md)
   * [Business Model](useful-information/business-model.md)
 
