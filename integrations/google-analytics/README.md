@@ -1,3 +1,7 @@
+---
+description: Use the Google Analytics integration to track page views in your PWA.
+---
+
 # Google Analytics
 
 If you want to track traffic and users' interactions with the Progressive Web App, you can connect your Google Analytics account to the WordPress PWA plugin.
@@ -36,5 +40,9 @@ All the **components** \(categories and actions\) of our events are always **pre
 
 ![](../../.gitbook/assets/eventos_principales.png)
 
+{% hint style="info" %}
 In order to understand your Analytics reports, please check out the **full list of our events** and their description [**here**](google-analytics-events.md).
+{% endhint %}
+
+
 

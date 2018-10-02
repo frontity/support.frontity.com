@@ -10,7 +10,9 @@ You can exclude a specific URL from being loaded into the PWA. This way, if visi
 
 3. **Type or paste** the **URLs** you want to exclude \(one per line\).
 
-> You can use regular expressions too.
+{% hint style="info" %}
+You can use regular expressions too.
+{% endhint %}
 
 4. Click **Save**.
 

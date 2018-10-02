@@ -1,2 +1,2 @@
-# USEFUL INFORMATION
+# Useful information
 

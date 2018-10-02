@@ -1,2 +1,2 @@
-# INTEGRATIONS
+# Integrations
 
