@@ -34,8 +34,8 @@ Please use the summary below or the navigation menu to access the content of our
     * [DoubleClick](integrations/ads/doubleclick.md)
     * [AdSense](integrations/ads/adsense.md)
     * [Smart AdServer](integrations/ads/smart-adserver.md)
-    * [Simple example](integrations/ads/ads-simple-example.md)
-    * [Full example](integrations/ads/ads-full-example.md)
+    * [Simple example]()
+    * [Full example]()
     * [Ads.txt](integrations/ads/ads-txt.md)
 * Troubleshooting
 

@@ -1,105 +1,70 @@
 # Ad Configuration
 
-* [**Introduction**](./#introduction)
-* [**Ad definitions**](./#ad-definitions)
-* [**Ad positions**](./#ad-positions)
-* [**Next steps**](./#next-steps)
+Frontity allows you to insert ads in your website, between posts in post lists or within the content of posts or pages, being able to choose the position and order of these ads. For doing that you have to follow the next steps:
 
-## Introduction {#introduction}
+1. Go to [https://ads-form.frontity.io/](https://ads-form.frontity.io/) and **sign in** with your username and password
 
-Frontity allows you to insert ads in your website, between posts in post lists or within the content of posts or pages, being able to choose the position and order of these ads.
+![](../../.gitbook/assets/screen-shot-2018-10-04-at-15.31.38.png)
 
-## Ad definitions {#ad-definitions}
+2.  **Select the site** where you want to create an ad
 
-Before deciding where to place the ads, the first thing to do is to define the ads that you want to use. The ideal would be to create a list of ads, assigning them a name along with their properties. Here is the list of currently-supported technologies, showing the properties required to configure ads using each of them:
+3. At the bottom of the form, you should press the _"**Create Ad"**_  ****button.
 
-* [**Smart AdServer**](smart-adserver.md)
-* [**AdSense**](adsense.md)
-* [**DoubleClick**](doubleclick.md)
+![](../../.gitbook/assets/ads-create_ads.png)
 
-We recommend assigning them a name \(it does not matter which\), so that it is easy to identify them when deciding where they are displayed, e.g.
-
-```text
-name: ad-latest-1
-type: doubleclick
-slot: /12345678/slot-latest-1
-width: 300
-height: 250
-
-name: ad-latest-2
-type: doubleclick
-slot: /12345678/slot-latest-2
-width: 300
-height: 250
-```
-
-## Ad positions {#ad-positions}
-
-The pages where you can place ads at this time are: lists of posts \(latest posts, category, tag\), content of articles \(post, page\) and galleries \(media\).
-
-{% hint style="warning" %}
-**Important**: note that we place our ad between your first ad and your second ad in each view, except for galleries. For more info, see our [business model](../../useful-information/business-model.md).
+{% hint style="info" %}
+Remember you can create as many ads as you want
 {% endhint %}
 
-### 1. Post lists \(latest posts, categories and tag lists\)
+4. **Define a name** for the ad and **click the configuration icon**. 
 
-The post lists are those views where the posts are listed, in which the title appears along with a photo and a short summary, usually grouped in pages of 10 posts. Ads in this type of view can be placed between posts.
+![](../../.gitbook/assets/ads-ad-name.png)
 
-You can choose where to show ads according to these attributes:
+5. First, select your ad server from the dropdown menu _**"Ad Server"**_. And then, define the required properties for the ad. \(For example, if you use AdSense you must fill in the client, slot, width, height\).
 
-| ATTRIBUTES | VALUES | DESCRIPTION | MANDATORY |
-| :--- | :--- | :--- | :--- |
-| **type** | `latest`, `category`, `tag` | Type of list. If the type is not indicated, the ad will appear for all of them. | no |
-| **page** | `1`, `2`, `3`... | Page number. If none is indicated, the ad will appear in all pages at the specified position. | no |
-| **position** | `0`, `1`, `2`, ... | Position that the ad occupies in the list of posts, being `0` the position before the first post, `1` the position after the first post, `2` the one after the second post, etc. | yes |
+![](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d-2.png)
 
-An example of configuration would be the following:
+{% hint style="info" %}
+To know where to find the ad properties you can check out the following links: [**Adsense**](https://support.frontity.com/~/edit/drafts/-LNuf3OdVuhGlDZ2knQ1/integrations/ads/adsense), [**Smart AdServer**](https://support.frontity.com/~/edit/drafts/-LNuf3OdVuhGlDZ2knQ1/integrations/ads/smart-adserver), [**Doubleclick**](https://support.frontity.com/~/edit/drafts/-LNuf3OdVuhGlDZ2knQ1/integrations/ads/doubleclick). At the moment, we only support these ad servers.
+{% endhint %}
 
-```text
-type: latest
-page: 1
-positions:
-  1: ad-latest-1 (below the first post)
-  7: ad-latest-2 (below the seventh post)
+6. Click the _**"Add Placement"**_  blue button to specify where you would like to display your ad.
 
-type: latest
-page: 2, 3, 4, 5
-positions:
-  1: ad-latest-3
-  7: ad-latest-4
+![](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d-4.png)
 
-type: category, tag
-positions:
- 1: ad-cat-1
- 7: ad-cat-2
-```
+* Select from the dropdown menu where you want to place the ad \(list of posts, single, gallery or custom post type\) and then the specific page type/s. Please refer to the table below for more details about each page type.
 
-### 2. Content of posts and pages
+|  | Page type | Explanation |
+| :--- | :--- | :--- |
+| **List of posts** | Latest posts | Ad is placed in the homepage |
+|  | Categories | Ad is placed in all category pages |
+|  | Tags | Ad is placed in all tag pages |
+| **Single** | Post | Ad is placed in all the posts |
+|  | Page | Ad is placed in all the pages |
+| **Gallery** | Media | Ad is placed in galleries |
+| **Custom post type** | Custom post type | Ad is placed in custom-post-type. Add the names separated by commas |
 
-The ads are placed in the order in which they are specified, and they occupy space according to the position to be displayed. You can choose whether to start displaying the ads from the start of content or a little below. Also, you can indicate if the last shown ad should be placed at the end of the content.
+![As you can see, you can select more than one page type to display your ads.](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d-6.png)
 
-| ATTRIBUTE | VALUE | DESCRIPTION | MANDATORY |
-| :--- | :--- | :--- | :--- |
-| **beginning** | `yes/no` | Indicates if the first ad should be positioned at the beginning of the post content. | yes |
-| **end** | `yes/no` | Indicates if the last shown ad should be positioned at the end of the post content. | yes |
+* Once you have selected the page types where your ads will be placed, you must specify their position in the next dropdown menu.
 
-An example of configuration would be the following:
+![](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d-5.png)
 
-```text
-type: post, page
-beginning: yes
-end: no
-ads: ad-content-1, ad-content-2, ad-content-3
-```
+{% hint style="info" %}
+You can add as many placements as you want by clicking again the blue "_**Add Placement"**_ button.
+{% endhint %}
 
-### 3. Galleries:
+7. Once you have finished, remember to **SAVE** all changes
 
-You can choose an ad that will be displayed in galleries. In this type of view, we do not place any ad but the one you have specified.
+![](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d.png)
 
-```text
-type: gallery
-ad: ad-media
-```
+{% hint style="warning" %}
+**Important**: please note that we place our ad between your first and second ad in each view, except for galleries. For more info, see our [business model](../../useful-information/business-model.md#our-business-model).
+{% endhint %}
+
+Here you have a videotutorial with the steps explained below. If you have any troubles or comments please contact with us support@frontity.com
+
+{% embed data="{\"url\":\"https://youtu.be/Euq1aF7F7Xw\",\"type\":\"video\",\"title\":\"How to create an ad in ads in ads-form.frontity.io\",\"description\":\"Let\'s see how to create an ad and define its placement in https://ads-form.frontity.io.\\n\\nFor more info, please visit our installation guide:\\n→ https://support.frontity.com/integrations/ads\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/Euq1aF7F7Xw/mqdefault.jpg\",\"width\":320,\"height\":180,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/Euq1aF7F7Xw?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/Euq1aF7F7Xw?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
 ## Next steps {#next-steps}
 
@@ -108,11 +73,6 @@ Get the properties of each ad
 * [**Smart AdServer**](smart-adserver.md)
 * [**AdSense**](adsense.md)
 * [**DoubleClick**](doubleclick.md)
-
-See some examples
-
-* [**simple example**](ads-simple-example.md)
-* [**full example**](ads-full-example.md)
 
 Configure ads.txt
 

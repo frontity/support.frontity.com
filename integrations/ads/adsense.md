@@ -2,13 +2,13 @@
 
 ## Ad unit properties
 
-| Parameter name | description |
-| :--- | :--- |
-| client | data-ad-client |
-| slot | data-ad-slot |
-| format | data-ad-format \(not required\) |
-| width | width of the ad unit |
-| height | height of the ad unit |
+| Parameter name | description | required |
+| :--- | :--- | :--- |
+| client | data-ad-client | yes |
+| slot | data-ad-slot | yes |
+| width | width of the ad unit | yes |
+| height | height of the ad unit | yes |
+| format | data-ad-format | no |
 
 ## Where to find your ad properties
 
@@ -16,13 +16,5 @@
 
 For the example above, values for the properties are:
 
-```text
-name: ad-rectangle-1234567890 (for example)
-type: adsense
-client: ca-pub-1234123412341234
-slot: 1234567890
-format: rectangle
-width: 336
-height: 280
-```
+![](../../.gitbook/assets/https___ads-form_frontity_io_site_id_cjmaqalgj00qx0128wcakq83d-7.png)
 
