@@ -18,7 +18,7 @@
     * [AdSense](integrations/ads/adsense.md)
     * [Smart AdServer](integrations/ads/smart-adserver.md)
     * [DoubleClick](integrations/ads/doubleclick.md)
-    * [Ads.txt](integrations/ads/ads-txt.md)
+  * [Ads.txt](integrations/ads-txt.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Some images don't show up](troubleshooting/some-images-dont-appear.md)
   * [Homepage is not displaying posts](troubleshooting/home-page-not-displaying-posts.md)

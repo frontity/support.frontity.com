@@ -36,7 +36,7 @@ Please use the summary below or the navigation menu to access the content of our
     * [Smart AdServer](integrations/ads/smart-adserver.md)
     * [Simple example]()
     * [Full example]()
-    * [Ads.txt](integrations/ads/ads-txt.md)
+    * [Ads.txt](integrations/ads-txt.md)
 * Troubleshooting
 
   * [Some images don't show up](troubleshooting/some-images-dont-appear.md)

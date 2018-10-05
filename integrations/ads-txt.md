@@ -24,7 +24,7 @@ If you monetize through multiple Ad Exchange and/or AdSense accounts, you must i
 
 ## 2. Including our entry in your ads.txt file
 
-In order to allow us to [use one ad placement](../../useful-information/business-model.md) on your website, you have to include our publisher information in the ads.txt file by adding the following line:
+In order to allow us to [use one ad placement](../useful-information/business-model.md) on your website, you have to include our publisher information in the ads.txt file by adding the following line:
 
 #### **`google.com, pub-6240751379550204, DIRECT, f08c47fec0942fa0`**
 
