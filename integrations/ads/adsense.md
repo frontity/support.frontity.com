@@ -4,11 +4,11 @@
 
 | Parameter name | description | required |
 | :--- | :--- | :--- |
-| client | data-ad-client | yes |
-| slot | data-ad-slot | yes |
-| width | width of the ad unit | yes |
-| height | height of the ad unit | yes |
-| format | data-ad-format | no |
+| **client** | Identifies the client | yes |
+| **slot** | Identifies where to place the ad | yes |
+| **width** | Width of the ad unit | yes |
+| **height** | Weight of the ad unit | yes |
+| **format** | Format of the ad unit | no |
 
 ## Where to find your ad properties
 

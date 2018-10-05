@@ -4,9 +4,9 @@
 
 | Parameter | description | required |
 | :--- | :--- | :--- |
-| slot | Full path of the ad unit with the network code and unit code. | yes |
-| width | Width of the ad unit. | yes |
-| height | Height of the ad unit. | yes |
+| **slot** | Full path of the ad unit with the network code and unit code. | yes |
+| **width** | Width of the ad unit. | yes |
+| **height** | Height of the ad unit. | yes |
 
 ## Where to find your ad properties
 
