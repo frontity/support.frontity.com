@@ -6,14 +6,12 @@ By default the homepage of your Progressive Web App will always display the late
 
 The solution here is quite simple. You don't need to change your front page, just follow these steps:
 
-1. Go to the PWA configuration screen from your WordPress dashboard.  
-2. In the blue **Plugin settings** box, click the **Advanced Settings** link.
+1. Go to **Advanced Settings** screen of Frontity plugin from your WordPress dashboard.  
+2. In the settings box, go to **Force Frontpage** and **check the box.**
 
-![](../.gitbook/assets/pwa-advanced-settings.png)
+![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-4.png)
 
-3. Tick the **Force FrontPage** check box and then **Save changes**.
-
-![](../.gitbook/assets/forcefrontpage.png)
+3. Click on **Save changes**.
 
 That's it. Now the homepage of the PWA will display again the latest posts from your blog.
 
