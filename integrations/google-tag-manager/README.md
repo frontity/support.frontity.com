@@ -5,7 +5,7 @@
 * [**Install Universal Analytics**](./#install-ua)
 * [**Next steps**](./#next-steps)
 
-## Introduction {#introduction}
+## Introduction <a id="introduction"></a>
 
 If you want to use **Google Tag Manager** \(**GTM**\) to manage your analytics services, here you can find how to integrate it with our GTM events.
 
@@ -16,7 +16,7 @@ Our PWA currently supports the following types of events:
 
 For us to be able to assume what your GTM container looks like while following this guide, you'll need to **create a new GTM container** from zero and install **Universal Analytics** \(**UA**\) as indicated in this guide. This way, you'll avoid interferences between the PWA configuration and any other setup you may have in your GTM. However, if you know what you are doing, feel free to integrate it in the way that better suits your needs.
 
-## Create a new container {#create-container}
+## Create a new container <a id="create-container"></a>
 
 1. In the **accounts** view of your GTM, click the menu button for the account you want to use, and then click **Create Container**.
 
@@ -30,7 +30,7 @@ For us to be able to assume what your GTM container looks like while following t
 
 ![](../../.gitbook/assets/gtm_accept_modal.png)
 
-## Install Universal Analytics {#install-ua}
+## Install Universal Analytics <a id="install-ua"></a>
 
 Now that you have your new GTM container, you'll need to install **Universal Analytics**. For that, follow these steps:
 
@@ -99,7 +99,7 @@ As you can see in the snippet above, there are three places where you can find t
 
 Now you have installed Universal Analytics in your GTM container.
 
-## Next steps {#next-steps}
+## Next steps <a id="next-steps"></a>
 
 Now that you have your new container and Universal Analytics installed, you'll have to configure them to work with our GTM events:
 

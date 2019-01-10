@@ -4,9 +4,9 @@ Frontity allows you to insert ads in your website, between posts in post lists o
 
 Here you have a videotutorial with the steps to follow once you have sign in. If you need it, we have detailed each step of the process just after the video. If you have any troubles or comments please contact us at support@frontity.com
 
-{% embed data="{\"url\":\"https://youtu.be/Euq1aF7F7Xw\",\"type\":\"video\",\"title\":\"How to create an ad in ads in ads-form.frontity.io\",\"description\":\"Let\'s see how to create an ad and define its placement in https://ads-form.frontity.io.\\n\\nFor more info, please visit our installation guide:\\n→ https://support.frontity.com/integrations/ads\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/Euq1aF7F7Xw/mqdefault.jpg\",\"width\":320,\"height\":180,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/Euq1aF7F7Xw?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/Euq1aF7F7Xw?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+{% embed url="https://youtu.be/Euq1aF7F7Xw" %}
 
-##  {#next-steps}
+##  <a id="next-steps"></a>
 
 1. Go to [https://ads-form.frontity.io/](https://ads-form.frontity.io/) and **sign in** with your username and password
 

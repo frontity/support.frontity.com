@@ -12,7 +12,7 @@ In order to use it you will have to create three elements in your GTM:
 
 **NOTE:** This guide assumes that you already have your analytics service installed in your GTM.
 
-## Create a variable {#create-variable}
+## Create a variable <a id="create-variable"></a>
 
 A **variable** is the first element you need to create in GTM so you have a reference to the event data set by Frontity. Its creation is explained in the following steps:
 
@@ -32,7 +32,7 @@ A **variable** is the first element you need to create in GTM so you have a refe
 
 ![](../../.gitbook/assets/gtm_event_save_variable.png)
 
-## Create a trigger {#create-trigger}
+## Create a trigger <a id="create-trigger"></a>
 
 A **trigger** is the second element you need to create in GTM and is the one that will cause your GTM **tag** to run and send the `event` to your analytics service. Its creation is explained in the following steps:
 
@@ -52,7 +52,7 @@ A **trigger** is the second element you need to create in GTM and is the one tha
 
 ![](../../.gitbook/assets/gtm_event_save_trigger.png)
 
-## Create a tag {#create-tag}
+## Create a tag <a id="create-tag"></a>
 
 A **tag** is the last element you need to create in GTM so you can send the `event` to your analytics service.
 
