@@ -12,7 +12,7 @@ You can use regular expressions too.
 
 ![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-3.png)
 
-3. Click **Save**.
+3. Click **Save changes**. 
 
 ![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-2%20%281%29.png)
 
