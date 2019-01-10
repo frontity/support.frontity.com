@@ -63,3 +63,7 @@ After installing and activating the WordPress PWA plugin:
 If you don’t know which is the Site ID for your WordPress site, please contact us.
 {% endhint %}
 
+* Click **Save changes**
+
+![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-2%20%282%29.png)
+
