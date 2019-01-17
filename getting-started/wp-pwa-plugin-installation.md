@@ -1,8 +1,8 @@
 # Installation guide
 
 * \*\*\*\*[**Install Frontity's plugin**](wp-pwa-plugin-installation.md#1-install-and-activate-the-wordpress-pwa-plugin)\*\*\*\*
-* \*\*\*\*[**Add Frontity's injector**](wp-pwa-plugin-installation.md#2-add-frontitys-injector-in-your-wordpress-theme)\*\*\*\*
 * \*\*\*\*[**Enter Site ID**](wp-pwa-plugin-installation.md#3-enter-your-site-id)\*\*\*\*
+* \*\*\*\*[**Add Frontity's injector**](wp-pwa-plugin-installation.md#2-add-frontitys-injector-in-your-wordpress-theme)\*\*\*\*
 
 ## 1. Install and activate Frontity's plugin
 
