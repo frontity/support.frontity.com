@@ -25,7 +25,25 @@ Go to the WordPress Plugin Directory to get the latest version of [Frontity](htt
 
 ![](../.gitbook/assets/activate_wordpress_pwa.jpg)
 
-## 2. Add Frontity's injector in your WordPress theme
+## 2. Enter your Site ID
+
+* Click the **Frontity** button on the left menu of your WordPress dashboard to navigate to the plugin configuration screen and click on **Advanced** **Settings**.
+
+![](../.gitbook/assets/dashboard_-_frontity_-_wordpress.png)
+
+* In the settings, enter the Site ID we previously gave you.
+
+![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress.png)
+
+{% hint style="info" %}
+If you don’t know which is the Site ID for your WordPress site, please contact us.
+{% endhint %}
+
+* Click **Save changes.**
+
+![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-2%20%282%29.png)
+
+## 3. Add Frontity's injector in your WordPress theme
 
 After installing and activating Frontity's plugin:
 
@@ -48,22 +66,4 @@ After installing and activating Frontity's plugin:
 {% hint style="danger" %}
 **Important**: Our injector must be the first script to load, please make sure no other scripts are inserted before ours.
 {% endhint %}
-
-## 3. Enter your Site ID
-
-* Click the **Frontity** button on the left menu of your WordPress dashboard to navigate to the plugin configuration screen and click on **Advanced** **Settings**.
-
-![](../.gitbook/assets/dashboard_-_frontity_-_wordpress.png)
-
-* In the settings, enter the Site ID we previously gave you.
-
-![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress.png)
-
-{% hint style="info" %}
-If you don’t know which is the Site ID for your WordPress site, please contact us.
-{% endhint %}
-
-* Click **Save changes.**
-
-![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-2%20%282%29.png)
 
