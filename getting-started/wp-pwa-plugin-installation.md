@@ -1,8 +1,8 @@
 # Installation guide
 
-* \*\*\*\*[**Install Frontity's plugin**](wp-pwa-plugin-installation.md#1-install-and-activate-the-wordpress-pwa-plugin)\*\*\*\*
-* \*\*\*\*[**Enter Site ID**](wp-pwa-plugin-installation.md#3-enter-your-site-id)\*\*\*\*
-* \*\*\*\*[**Add Frontity's injector**](wp-pwa-plugin-installation.md#2-add-frontitys-injector-in-your-wordpress-theme)\*\*\*\*
+* \*\*\*\*[**Install and activate Frontity's plugin**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#1-install-and-activate-frontitys-plugin)\*\*\*\*
+* \*\*\*\*[**Enter your Site ID**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#2-enter-your-site-id)\*\*\*\*
+* \*\*\*\*[**Add Frontity's injector**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#3-add-frontitys-injector-in-your-wordpress-theme)\*\*\*\*
 
 ## 1. Install and activate Frontity's plugin
 
@@ -23,15 +23,13 @@ Go to the WordPress Plugin Directory to get the latest version of [Frontity](htt
 
 * Once installed, remember to **Activate** the plugin. To do so, you can navigate to `Plugins` &gt; `Installed Plugins`, and then click on `Activate` Frontity's plugin.
 
-![](../.gitbook/assets/activate_wordpress_pwa.jpg)
-
 ## 2. Enter your Site ID
 
-* Click the **Frontity** button on the left menu of your WordPress dashboard to navigate to the plugin configuration screen and click on **Advanced** **Settings**.
+* Click the **Frontity** button on the left menu of your WordPress dashboard to navigate to the plugin configuration screen. Then click on **Advanced** **Settings**.
 
 ![](../.gitbook/assets/dashboard_-_frontity_-_wordpress.png)
 
-* In the settings, enter the Site ID we previously gave you.
+* Once you're in the Advanced Settings screen, **enter the Site ID** we previously gave you.
 
 ![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress.png)
 
