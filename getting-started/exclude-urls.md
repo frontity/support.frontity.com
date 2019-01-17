@@ -2,9 +2,9 @@
 
 You can exclude a specific URL from being loaded into the PWA. This way, if visitors access that URL from a mobile browser, they will see the classic mobile version of your site instead of the PWA.
 
-1. Go to **Advanced Settings** screen of Frontity plugin from your WordPress dashboard.
+1. Go to the **Advanced Settings** screen of Frontity's plugin.
 
-2. In the ****settings box, go to **Exclude URLs in the PWA**, and **type or paste** the **URLs** you want to exclude \(one per line\).
+2. In the ****settings box, go to **Exclude URLs in the PWA** and **type or paste** the **URLs** that you want to exclude \(one per line\).
 
 {% hint style="info" %}
 You can use regular expressions too.

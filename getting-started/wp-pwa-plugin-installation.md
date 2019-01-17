@@ -25,11 +25,11 @@ Go to the WordPress Plugin Directory to get the latest version of [Frontity](htt
 
 ## 2. Enter your Site ID
 
-* Click the **Frontity** button on the left menu of your WordPress dashboard to navigate to the plugin configuration screen. Then click on **Advanced** **Settings**.
+* Navigate to the **`Frontity`** menu item \(on your WordPress dashboard\) &gt; **`Advanced Settings`**.
 
 ![](../.gitbook/assets/dashboard_-_frontity_-_wordpress.png)
 
-* Once you're in the Advanced Settings screen, **enter the Site ID** we previously gave you.
+* Once you're in the `Advanced Settings` screen, **enter the Site ID** we previously gave you.
 
 ![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress.png)
 
@@ -37,11 +37,11 @@ Go to the WordPress Plugin Directory to get the latest version of [Frontity](htt
 If you don’t know which is the Site ID for your WordPress site, please contact us.
 {% endhint %}
 
-* Click **Save changes.**
+* Click **`Save changes`.**
 
 ![](../.gitbook/assets/advanced_settings_-_frontity_-_wordpress-2%20%282%29.png)
 
-## 3. Add Frontity's injector in your WordPress theme
+## 3. Add Frontity's injector to your WordPress theme
 
 After installing and activating Frontity's plugin:
 
