@@ -1,8 +1,8 @@
 # Installation guide
 
-* \*\*\*\*[**Install and activate Frontity's plugin**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#1-install-and-activate-frontitys-plugin)\*\*\*\*
-* \*\*\*\*[**Enter your Site ID**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#2-enter-your-site-id)\*\*\*\*
-* \*\*\*\*[**Add Frontity's injector**](https://support.frontity.com/~/drafts/-LWR1iGJ-emlW0fcSre-/primary/getting-started/wp-pwa-plugin-installation#3-add-frontitys-injector-in-your-wordpress-theme)\*\*\*\*
+* \*\*\*\*[**Install and activate Frontity's plugin**](https://support.frontity.com/getting-started/wp-pwa-plugin-installation#1-install-and-activate-frontitys-plugin)
+* \*\*\*\*[**Enter your Site ID**](https://support.frontity.com/getting-started/wp-pwa-plugin-installation#2-enter-your-site-id)
+* \*\*\*\*[**Add Frontity's injector**](https://support.frontity.com/getting-started/wp-pwa-plugin-installation#3-add-frontitys-injector-to-your-wordpress-theme)
 
 ## 1. Install and activate Frontity's plugin
 
